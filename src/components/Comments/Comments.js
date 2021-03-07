@@ -11,7 +11,7 @@ const Comments = () =>
         fetch(`https://jsonplaceholder.typicode.com/posts/${ id }/comments`)
             .then(res => res.json())
             .then(data => setComments(data))
-    }, [])
+    }, [id])
     return (
         <div>
             <h1>Total Comments: {comments.length}</h1>
