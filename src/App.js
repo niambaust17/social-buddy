@@ -7,7 +7,6 @@ import
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Post from './components/Post/Post';
 import NotFound from './components/NotFound/NotFound';
 import Comments from './components/Comments/Comments';
 
